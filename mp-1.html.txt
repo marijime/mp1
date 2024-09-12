@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content = "width=device-width, initial scale=1">
+    <title>Home | Resume</title>
+</head>
+<body>
+<h1>Marisol Jimenez</h1>
+<p> My online Resume</p>
+    <a href="https://www.google.com/"> Google </a>
+    <a href="https://www.google.com/"> Google </a>
+    <a href="https://www.google.com/"> Google </a>
+    <a href="https://www.google.com/"> Google </a>
+    <a href="https://www.google.com/"> Google </a>
+    <a href="https://www.google.com/"> Google </a>
+
+<p> Hello this is a paragraph tag now this next tag is for when you want to break line <br> see I can keep writing</p>
+
+This is my first website <b> I am excited</b>
+<ul>
+    <li>Home</li>
+    <li>Education</li>
+    <li>Employment</li>
+    <li>Achievements</li>
+    <li>References</li>
+    <li>Documents</li>
+
+</ul>
+</body>
+</html>
