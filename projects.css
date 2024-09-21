@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    /*padding: 0;*/
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /* Choose your preferred font */
+}
+
+/*This is the code for the max-width of the page being greater than 750. We want to make the navigation bar on the left and vertical.*/
+body {
+    /*font-size: calc(20px + 1.5vh);*/
+}
+
+#page-wrapper{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+header {
+    background: #567572FF;
+    padding: 1rem; /* Padding for spacing */
+}
+
+h1 {
+    text-align: left; /* Aligns text inside <h1> elements to the left */
+}
+
+img {
+    max-width: 100%; /* Allows the image to scale with the size of its container */
+    width: auto; /* Adjusts the width automatically to maintain aspect ratio */
+    height: auto; /* Adjusts the height automatically to maintain aspect ratio */
+    max-height: 300px;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 130vh;
+}
+
+nav {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: gray; /* gray background for the navbar */
+    padding: 1%; /* Padding for navbar */
+    left: 0; /* Align to the left side */
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+nav li {
+    padding: 1% 3%;
+    background-color: #567572FF; /* Sets the background color */
+    margin: 10% auto;
+    border: 5px solid white;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black; /* Optional: Change the color of the links */
+    display: block;
+    text-align: left;
+    font-size: calc(2px + 1.5vw) ;
+}
+
+main {
+    height: 100%; /* Set the height of <main> to 100% of the viewport height */
+    background: #7a8e8bFF;
+    width: 80%;
+
+}
+main a {
+    list-style-type: none; /* Removes the bullet point */
+    display: inline-block; /* Ensures the link behaves like a text element */
+    text-decoration: none;
+    color: white;
+
+}
+
+footer {
+    background: gray;
+
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    width: 25%;  /* Set your desired width */
+    height: auto;
+    margin-right: 10px;
+
+}
+.edu{
+    font-size: calc(12px + .5vw);
+}
+.employ{
+    font-size: calc(16px + .5vw);
+}
+
+
+table, tr, td, th{
+    border: 1px solid black;
+    font-size: calc(2px + 2vw);
+}
+
+.buttons button{
+    background-color: #008CBA;
+    font-family: 'Great Vibes', cursive, sans-serif;
+}
+.calculator label{
+    font-family: 'Great Vibes', cursive, sans-serif;
+
+}
+.ind{
+    font-size: calc(3px + 2vw);
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    #container {
+        flex-direction: column;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    nav a {
+        font-size: calc(2px + 1.5vw);
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    nav li {
+        padding: 3% 1%;
+    }
+
+    footer {
+        background: gray;
+
+    }
+
+
+}
+
+
+
+
+

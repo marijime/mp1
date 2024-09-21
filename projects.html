@@ -1,10 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+    <meta name="description" content="A website showcasing Marisol Jimenez's Online Resume">
+    <link rel="stylesheet" type="text/css" href="mp-1.css">
+    <link rel="stylesheet" type="text/css" href="projects.css">
+    <link href='https://fonts.googleapis.com/css?family=Great Vibes' rel='stylesheet'>
+    <title>Home | Resume</title>
 </head>
 <body>
+    <div id="page-wrapper">
+    <header>
+        <h1>Marisol Jimenez</h1>
+        <p> My online Resume</p>
+
+    </header>
+        <div id="container">
+
+        <nav>
+            <ul class="list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="employment.html">Employment</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="references.html">References</a></li>
+                <li><a href="projects.html">Documents</a></li>
+
+            </ul>
+
+        </nav>
+
+        <main>
+
+
+                <img src="project411.png" alt="project pic">
+
+                <br>
+                <p>This was a project that I completed last semester when I took CS:411 my group decided to make a travel
+                    journal, here you can find a link to  <a href="https://github.com/LamarAlSubhi/411">Github</a> where the project is made public. I hope you enjoy!</p>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            <div class="calculator">
+            <h3><b>Calculator</b></h3>
+
+            <label for="first-number">Enter the first number:</label><input id="first-number">
+
+            <label for="second-number">Enter the second number:</label><input id="second-number">
+            </div>
+
+            <div class="buttons">
+                <button id="addition" onclick="addition()">+</button>
+                <button id="subtraction" onclick="subtraction()">-</button>
+                <button id="" onclick="multiplication()">*</button>
+                <button id="division" onclick="division()">/</button>
+                <button id="power" onclick="myPow()">**</button>
+                <button id="clear" onclick="clearval()">clear</button>
+            </div>
+
+            <div id="alt-output"></div>
+
+        </main>
+
+        </div>
+
+    <footer>
+        <p>All rights reserved by Marisol Jimenez: <a href="">Credits</a> &#169;</p>
+    </footer>
+
+    </div>
+
+
+    <script src="calc.js"></script>
 
 </body>
+
 </html>
